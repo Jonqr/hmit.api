@@ -1,0 +1,27 @@
+{
+  "name": "hmit.api",
+  "version": "1.0.0",
+  "description": "Aplicação de servidor API para sistema How Much I.T",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonqr/hmit.git"
+  },
+  "author": "Jonathan Querotti Ribeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jonqr/hmit/issues"
+  },
+  "homepage": "https://github.com/Jonqr/hmit#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "mongoose": "^5.5.7",
+    "nodemon": "^1.19.0"
+  }
+}
